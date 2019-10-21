@@ -1,22 +1,68 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #222f3e;
+}
+
+header {
+  width: 100%;
   text-align: center;
+  padding: 30px;
+  color: #8395a7;
+  border-bottom: 5px solid #8395a7;
+  position: fixed;
+  top: 0;
+  background: #222f3e;
 }
 
-.App-logo {
-  height: 40vmin;
+.search {
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.search:focus {
+  outline: none;
+}
+
+.card-container {
+  padding-top: 180px;;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-gap: 18px;
+}
+
+.card {
+  background: #ccc;
+  padding: 7px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #333;
 }
 
-.App-link {
-  color: #09d3ac;
+.card img {
+  width: 20%;
+  max-width: 100%;
+}
+
+.card h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #222f3e;
 }
