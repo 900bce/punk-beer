@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CardList from './CardList';
-import SearchBox from './SearchBox'
-;import './App.css';
+import SearchBox from './SearchBox';
+import './App.css';
 
 class App extends Component {
   constructor() {
@@ -13,10 +13,10 @@ class App extends Component {
   }
 
   async componentDidMount() {
-      const response = await fetch('https://api.punkapi.com/v2/beers/');
-      const data = await response.json();
-      this.setState({beers: data});
-    } 
+    const response = await fetch('https://api.punkapi.com/v2/beers/');
+    const data = await response.json();
+    this.setState({beers: data});
+  } 
 
   onSearchChange = (event) => {
     this.setState({ searchField: event.target.value });
