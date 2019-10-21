@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/punk-beer/static/css/main.ce00591c.chunk.css",
+    "main.js": "/punk-beer/static/js/main.6761db82.chunk.js",
+    "main.js.map": "/punk-beer/static/js/main.6761db82.chunk.js.map",
+    "runtime-main.js": "/punk-beer/static/js/runtime-main.c3e32c1a.js",
+    "runtime-main.js.map": "/punk-beer/static/js/runtime-main.c3e32c1a.js.map",
+    "static/js/2.1822bdb0.chunk.js": "/punk-beer/static/js/2.1822bdb0.chunk.js",
+    "static/js/2.1822bdb0.chunk.js.map": "/punk-beer/static/js/2.1822bdb0.chunk.js.map",
+    "index.html": "/punk-beer/index.html",
+    "precache-manifest.33ac3f56e27394a74b28690b6b9bebad.js": "/punk-beer/precache-manifest.33ac3f56e27394a74b28690b6b9bebad.js",
+    "service-worker.js": "/punk-beer/service-worker.js",
+    "static/css/main.ce00591c.chunk.css.map": "/punk-beer/static/css/main.ce00591c.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c3e32c1a.js",
+    "static/js/2.1822bdb0.chunk.js",
+    "static/css/main.ce00591c.chunk.css",
+    "static/js/main.6761db82.chunk.js"
+  ]
+}
